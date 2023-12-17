@@ -1,18 +1,10 @@
 #include "sys.h"
-
-
 static TaskHandle_t app_task1_handle = NULL;
-
 /* 任务1 */
 static void app_task1(void* pvParameters);
-
-
 int main(void)
 {
-
-
     LED_Init();
-
     /* 创建app_task1任务 */
     xTaskCreate((TaskFunction_t )app_task1,  		/* 任务入口函数 */
                 (const char*    )"app_task1",			/* 任务名字 */
@@ -20,21 +12,22 @@ int main(void)
                 (void*          )NULL,				/* 任务入口函数参数 */
                 (UBaseType_t    )4, 					/* 任务的优先级 */
                 (TaskHandle_t*  )&app_task1_handle);	/* 任务控制块指针 */
-
-
-
     /* 开启任务调度 */
     vTaskStartScheduler();
 
 }
-
-static void app_task1(void* pvParameters)
+static void app_task1(void* pvParameters)  //任务1
 {
     for(;;)
     {
 
+        //Toggle the GPIO pins
+
+        //Toggle the GPIO pin 9
         GPIO_ToggleBits(GPIOF, GPIO_Pin_9);
+        //Toggle the GPIO pin 10
         GPIO_ToggleBits(GPIOF, GPIO_Pin_10);
+        //延迟1000毫秒
         vTaskDelay(1000);
 
     }
