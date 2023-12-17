@@ -1,0 +1,1 @@
+C:\PROGRA~2\GNUTOO~1\50A5A~1.420\bin\AR19DD~1.EXE -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wl,-gc-sections,--print-memory-usage,-Map=D:/FreeRTOS/cmake-build-debug/STMF407ZGT6.map -mcpu=cortex-m4 -mthumb -mthumb-interwork -T D:/FreeRTOS/STM32F407ZGTx_FLASH.ld @CMakeFiles\STMF407ZGT6.elf.dir\objects1.rsp -o STMF407ZGT6.elf 

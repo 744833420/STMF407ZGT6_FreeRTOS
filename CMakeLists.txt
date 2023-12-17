@@ -19,9 +19,10 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_STANDARD 11)
 
 #Uncomment for hardware floating point
-#add_compile_definitions(ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING)
-#add_compile_options(-mfloat-abi=hard -mfpu=fpv4-sp-d16)
-#add_link_options(-mfloat-abi=hard -mfpu=fpv4-sp-d16)
+add_compile_definitions(ARM_MATH_CM4;ARM_MATH_MATRIX_CHECK;ARM_MATH_ROUNDING)
+add_compile_options(-mfloat-abi=hard -mfpu=fpv4-sp-d16)
+add_link_options(-mfloat-abi=hard -mfpu=fpv4-sp-d16)
+
 
 #Uncomment for software floating point
 #add_compile_options(-mfloat-abi=soft)
@@ -46,12 +47,17 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(APP/delay APP/sys APP/usart Libraries/CMSIS Libraries/STM32F407x.Stdperiph_Driver/inc USER/ startup/)
+include_directories(APP/delay APP/sys APP/usart Libraries/CMSIS
+        Libraries/STM32F407x.Stdperiph_Driver/inc
+        USER/ startup/ FreeRTOS/include FreeRTOS/portable/GCC/ARM_CM4F)  #相应头文件
 
 #add_definitions(-DUSE_HAL_DRIVER -DSTM32F407xx)
 #add_definitions(-DUSE_STDPERIPH_DRIVER -DSTM32F407xx)  #标准库宏定义
 
-file(GLOB_RECURSE SOURCES "startup/*.*" "APP/delay/*.*" "APP/sys/*.*" "APP/usart/*.*"  "Libraries/CMSIS/*.*" "Libraries/STM32F407x.Stdperiph_Driver/src/*.*" "USER/*.*" "APP/led/*.*")
+file(GLOB_RECURSE SOURCES "startup/*.*" "APP/delay/*.*" "APP/sys/*.*" "APP/usart/*.*"
+        "Libraries/CMSIS/*.*" "Libraries/STM32F407x.Stdperiph_Driver/src/*.*" "USER/*.*"
+        "APP/led/*.*"  "FreeRTOS/*.*" "FreeRTOS/portable/MemMang/heap_4.c"
+        "FreeRTOS/portable/GCC/ARM_CM4F/*.*" )
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F407ZGTx_FLASH.ld)
 

@@ -1,3 +1,9 @@
+/*6. 将 stm32f4xx_it.c 里的
+SVC_Handler
+PendSV_Handler
+SysTick_Handler
+三个方法前面都加上__weak
+ * */
 /**
   ******************************************************************************
   * @file    Project/STM32F4xx_StdPeriph_Templates/stm32f4xx_it.c 
@@ -112,7 +118,7 @@ void UsageFault_Handler(void)
   * @param  None
   * @retval None
   */
-void SVC_Handler(void)
+void __weakSVC_Handler(void)
 {
 }
 
@@ -130,7 +136,7 @@ void DebugMon_Handler(void)
   * @param  None
   * @retval None
   */
-void PendSV_Handler(void)
+void __weakPendSV_Handler(void)
 {
 }
 
@@ -139,7 +145,7 @@ void PendSV_Handler(void)
   * @param  None
   * @retval None
   */
-void SysTick_Handler(void)
+void __weakSysTick_Handler(void)
 {
  
 }

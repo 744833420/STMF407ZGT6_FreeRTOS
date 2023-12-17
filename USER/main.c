@@ -1,5 +1,4 @@
 #include"sys.h"
-
 int main(void)
 {
 	u32 t=0;

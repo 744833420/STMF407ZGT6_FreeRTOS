@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="STMF407ZGT6"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/FreeRTOS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/FreeRTOS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STMF407ZGT6.elf">
+				<Option output="D:/FreeRTOS/cmake-build-debug/STMF407ZGT6.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/FreeRTOS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add directory="D:/FreeRTOS/APP/delay"/>
+					<Add directory="D:/FreeRTOS/APP/sys"/>
+					<Add directory="D:/FreeRTOS/APP/usart"/>
+					<Add directory="D:/FreeRTOS/Libraries/CMSIS"/>
+					<Add directory="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/inc"/>
+					<Add directory="D:/FreeRTOS/USER"/>
+					<Add directory="D:/FreeRTOS/startup"/>
+					<Add directory="D:/FreeRTOS/FreeRTOS/include"/>
+					<Add directory="D:/FreeRTOS/FreeRTOS/portable/GCC/ARM_CM4F"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\5.4 2016q3\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\5.4 2016q3\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\5.4 2016q3\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\5.4 2016q3\bin\../lib/gcc/arm-none-eabi/5.4.1/include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\5.4 2016q3\bin\../lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\5.4 2016q3\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 STMF407ZGT6.elf"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STMF407ZGT6.elf/fast">
+				<Option output="D:/FreeRTOS/cmake-build-debug/STMF407ZGT6.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/FreeRTOS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add directory="D:/FreeRTOS/APP/delay"/>
+					<Add directory="D:/FreeRTOS/APP/sys"/>
+					<Add directory="D:/FreeRTOS/APP/usart"/>
+					<Add directory="D:/FreeRTOS/Libraries/CMSIS"/>
+					<Add directory="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/inc"/>
+					<Add directory="D:/FreeRTOS/USER"/>
+					<Add directory="D:/FreeRTOS/startup"/>
+					<Add directory="D:/FreeRTOS/FreeRTOS/include"/>
+					<Add directory="D:/FreeRTOS/FreeRTOS/portable/GCC/ARM_CM4F"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\5.4 2016q3\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\5.4 2016q3\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1/arm-none-eabi"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\5.4 2016q3\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include/c++/5.4.1/backward"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\5.4 2016q3\bin\../lib/gcc/arm-none-eabi/5.4.1/include"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\5.4 2016q3\bin\../lib/gcc/arm-none-eabi/5.4.1/include-fixed"/>
+					<Add directory="c:\program files (x86)\gnu tools arm embedded\5.4 2016q3\bin\../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 STMF407ZGT6.elf/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/FreeRTOS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;D:/FreeRTOS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/FreeRTOS/APP/delay/delay.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/APP/delay/delay.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/APP/led/led.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/APP/sys/sys.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/APP/sys/sys.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/APP/usart/usart.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/APP/usart/usart.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/croutine.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/event_groups.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/include/FreeRTOS.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/include/FreeRTOSConfig.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/include/StackMacros.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/include/croutine.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/include/deprecated_definitions.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/include/event_groups.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/include/list.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/include/mpu_prototypes.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/include/mpu_wrappers.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/include/portable.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/include/projdefs.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/include/queue.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/include/semphr.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/include/stdint.readme">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/include/task.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/include/timers.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/list.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/portable/GCC/ARM_CM4F/port.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/portable/MemMang/heap_4.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/queue.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/readme.txt">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/tasks.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/FreeRTOS/timers.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/CMSIS/core_cm4.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/CMSIS/core_cm4_simd.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/misc.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_adc.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_can.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_crc.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_cryp.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_cryp_aes.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_cryp_des.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_cryp_tdes.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_dac.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_dbgmcu.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_dcmi.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_dma.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_dma2d.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_exti.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_flash.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_flash_ramfunc.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_fmc.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_fsmc.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_gpio.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_hash.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_hash_md5.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_hash_sha1.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_i2c.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_iwdg.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_ltdc.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_pwr.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_rcc.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_rng.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_rtc.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_sai.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_sdio.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_spi.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_syscfg.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_tim.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_usart.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/Libraries/STM32F407x.Stdperiph_Driver/src/stm32f4xx_wwdg.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/STM32F407ZGTx_FLASH.ld">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/USER/main.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/USER/stm32f4xx.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/USER/stm32f4xx_conf.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/USER/stm32f4xx_it.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/USER/stm32f4xx_it.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/USER/system_stm32f4xx.c">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/USER/system_stm32f4xx.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/startup/core_cmFunc.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/startup/core_cmInstr.h">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/startup/startup_stm32f407xx.s">
+			<Option target="STMF407ZGT6.elf"/>
+		</Unit>
+		<Unit filename="D:/FreeRTOS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
