@@ -11,43 +11,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26cb92a7-dce1-4d16-b64c-aa1d3c30c92c" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/croutine.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/event_groups.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/include/FreeRTOS.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/include/FreeRTOSConfig.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/include/StackMacros.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/include/croutine.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/include/deprecated_definitions.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/include/event_groups.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/include/list.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/include/mpu_prototypes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/include/mpu_wrappers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/include/portable.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/include/projdefs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/include/queue.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/include/semphr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/include/stdint.readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/include/task.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/include/timers.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/list.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/portable/GCC/ARM_CM4F/port.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/portable/GCC/ARM_CM4F/portmacro.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/portable/MemMang/ReadMe.url" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/portable/MemMang/heap_1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/portable/MemMang/heap_2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/portable/MemMang/heap_3.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/portable/MemMang/heap_4.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/portable/MemMang/heap_5.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/queue.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/tasks.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeRTOS/timers.c" afterDir="false" />
+    <list default="true" id="26cb92a7-dce1-4d16-b64c-aa1d3c30c92c" name="默认变更列表" comment="FreeRTOS clion 标准库 初始化成功">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP/sys/sys.c" beforeDir="false" afterPath="$PROJECT_DIR$/APP/sys/sys.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USER/stm32f4xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/USER/stm32f4xx_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/sys/sys.h" beforeDir="false" afterPath="$PROJECT_DIR$/APP/sys/sys.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/USER/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/USER/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STMF407ZGT6.elf.dir/APP/sys/sys.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STMF407ZGT6.elf.dir/APP/sys/sys.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STMF407ZGT6.elf.dir/ASM.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STMF407ZGT6.elf.dir/ASM.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STMF407ZGT6.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STMF407ZGT6.elf.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STMF407ZGT6.elf.dir/USER/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STMF407ZGT6.elf.dir/USER/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STMF407ZGT6.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STMF407ZGT6.elf.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STMF407ZGT6.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STMF407ZGT6.elf.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STMF407ZGT6.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STMF407ZGT6.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STMF407ZGT6.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STMF407ZGT6.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STMF407ZGT6.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STMF407ZGT6.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STMF407ZGT6.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STMF407ZGT6.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1669,7 +1646,16 @@
       <workItem from="1701667122297" duration="13000" />
       <workItem from="1701667218515" duration="309000" />
       <workItem from="1702777654521" duration="13079000" />
+      <workItem from="1702807628058" duration="930000" />
     </task>
+    <task id="LOCAL-00001" summary="FreeRTOS clion 标准库 初始化成功">
+      <created>1702807876104</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702807876104</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1680,7 +1666,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -1689,6 +1687,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="FreeRTOS clion 标准库 初始化成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="FreeRTOS clion 标准库 初始化成功" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1712,6 +1712,16 @@
           <url>file://$PROJECT_DIR$/FreeRTOS/include/FreeRTOS.h</url>
           <line>55</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/USER/main.c</url>
+          <line>39</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/USER/main.c</url>
+          <line>31</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
